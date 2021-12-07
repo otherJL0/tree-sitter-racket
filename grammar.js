@@ -1,7 +1,7 @@
 module.exports = grammar({
   name: "racket",
 
-  extras: ($) => [$._comment, /\s+/],
+  extras: ($) => [$.comment, /\s+/],
 
   rules: {
     source_file: ($) =>
@@ -47,6 +47,6 @@ module.exports = grammar({
 
     dot: (_$) => ".",
 
-    _comment: (_$) => token(seq(";", /.*/)),
+    comment: (_$) => token(seq(";", /.*/)),
   },
 });
