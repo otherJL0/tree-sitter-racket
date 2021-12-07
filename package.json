@@ -1,0 +1,31 @@
+{
+  "name": "tree-sitter-racket",
+  "version": "1.0.0",
+  "description": "Tree-sitter grammar for racket",
+  "main": "bindings/node",
+  "scripts": {
+    "test": "tree-sitter test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otherJL0/tree-sitter-racket.git"
+  },
+  "keywords": [
+    "racket",
+    "tree-sitter",
+    "treesitter"
+  ],
+  "author": "Jonathan Lopez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/otherJL0/tree-sitter-racket/issues"
+  },
+  "homepage": "https://github.com/otherJL0/tree-sitter-racket#readme",
+  "dependencies": {
+    "nan": "^2.15.0"
+  },
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "tree-sitter-cli": "^0.20.1"
+  }
+}
